@@ -16,10 +16,17 @@
 #     print("Zero")
 
 # 2. Program: Even or Odd
-num1 = int(input("Enter a number: "))
-if num1 % 2 == 0 :
-    print("Even Number")
-else :
-    print("Odd Number")
+# num1 = int(input("Enter a number: "))
+# if num1 % 2 == 0 :
+#     print("Even Number")
+# else :
+#     print("Odd Number")
 
+# 3. Program: Voting Eligibility
+
+vote = int(input("Enter your age: "))
+if vote >= 18:
+    print("You are eligible to vote")
+else :
+    print("You are not eligible to vote")
 
