@@ -7,35 +7,38 @@
 # else	        Runs when all conditions are False
 
 # 1. Program: Positive, Negative or Zero
-# num = int(input("Enter a number: "))
-# if num > 0:
-#     print("Positive Number")
-# elif num < 0 :
-#     print("Negative Number")
-# else:
-#     print("Zero")
+num = int(input("Enter a number: "))
+if num > 0:
+    print("Positive Number")
+elif num < 0 :
+    print("Negative Number")
+else:
+    print("Zero")
 
 # 2. Program: Even or Odd
-# num1 = int(input("Enter a number: "))
-# if num1 % 2 == 0 :
-#     print("Even Number")
-# else :
-#     print("Odd Number")
+num1 = int(input("Enter a number: "))
+if num1 % 2 == 0 :
+    print("Even Number")
+else :
+    print("Odd Number")
 
 # 3. Program: Voting Eligibility
 
-# vote = int(input("Enter your age: "))
-# if vote >= 18:
-#     print("You are eligible to vote")
-# else :
-#     print("You are not eligible to vote")
+vote = int(input("Enter your age: "))
+if vote >= 18:
+    print("You are eligible to vote")
+else :
+    print("You are not eligible to vote")
 
 # 4. Important concept: Multiple conditions
 marks = int(input("Enter your marks: "))
-if marks >= 90:
+
+if marks < 0 or marks > 100:
+    print("Invalid Marks")
+elif marks >= 90:
     print("Grade A")
 elif marks >= 75:
-    print("Greade B")
+    print("Grade B")
 elif marks >= 60:
     print("Grade C")
 elif marks >= 35:
