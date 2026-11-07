@@ -24,9 +24,21 @@
 
 # 3. Program: Voting Eligibility
 
-vote = int(input("Enter your age: "))
-if vote >= 18:
-    print("You are eligible to vote")
-else :
-    print("You are not eligible to vote")
+# vote = int(input("Enter your age: "))
+# if vote >= 18:
+#     print("You are eligible to vote")
+# else :
+#     print("You are not eligible to vote")
 
+# 4. Important concept: Multiple conditions
+marks = int(input("Enter your marks: "))
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Greade B")
+elif marks >= 60:
+    print("Grade C")
+elif marks >= 35:
+    print("Grade D")
+else:
+    print("Fail")
