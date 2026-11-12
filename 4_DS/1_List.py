@@ -21,3 +21,5 @@ fruits[4] = "watermelon"
 print(f"Updated Fruits for Grapes[4] is : {fruits[4]}")
 print(fruits)           # Printing All elements in the List
 
+print()
+
