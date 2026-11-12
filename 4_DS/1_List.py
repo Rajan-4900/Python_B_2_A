@@ -13,3 +13,11 @@ print(fruits[0])  # Apple
 print(fruits[1])  # Banana
 print(fruits[2])  # Mango
 print(fruits[3])  # Orange
+print(fruits[4])  # Grapes
+
+print()
+# Changing A List element
+fruits[4] = "watermelon" 
+print(f"Updated Fruits for Grapes[4] is : {fruits[4]}")
+print(fruits)           # Printing All elements in the List
+
