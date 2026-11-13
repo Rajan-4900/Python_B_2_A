@@ -53,3 +53,11 @@ print(fruit)
 # append("Orange") → Adds at the end.
 # insert(1, "Orange") → Adds at index 1.
 
+print()
+# Removing Elements
+# There are different ways to remove elements. We'll learn them one by one.
+
+# Step 1: remove() method
+# We use remove() when we want to delete an element using its value.
+fruit.remove("Banana")
+print(fruit)
