@@ -62,3 +62,12 @@ print()
 fruit.remove("Banana")
 print(fruit)
 
+# Step 2: pop() method
+# We use pop() to remove an element from a list using its index position.
+fruits.pop(4)
+print(f"Updated Fruits List is : {fruits}")
+
+# Important points:
+# - pop(1) → Removes the element at index 1.
+# - pop(0) → Removes the first element.
+# - pop() → Removes the last element if no index is provided.
