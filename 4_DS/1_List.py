@@ -61,3 +61,4 @@ print()
 # We use remove() when we want to delete an element using its value.
 fruit.remove("Banana")
 print(fruit)
+

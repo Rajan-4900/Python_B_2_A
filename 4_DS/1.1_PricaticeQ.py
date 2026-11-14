@@ -17,3 +17,14 @@ print(f"Printing The third name : {name[2]}")
 # Chaning the element of Rahul to Vijay
 name[1] = "Vijay"
 print(f"Printing the Updated List : {name}")
+
+# Python Lists – Removing Elements
+# Step 1: remove() method
+names = ["Rajan", "Rahul", "Amit", "Kiran", "Rohit"]
+# Your tasks:
+# 1. Remove "Amit" using remove().
+# 2. Print the updated list.
+# 3. Print the length of the updated list.
+names.remove("Amit")
+print(f"Updated Names List : {names}")
+print(f"Length of the List : {len(names)}")
