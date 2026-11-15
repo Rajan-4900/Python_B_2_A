@@ -71,3 +71,15 @@ print(f"Updated Fruits List is : {fruits}")
 # - pop(1) → Removes the element at index 1.
 # - pop(0) → Removes the first element.
 # - pop() → Removes the last element if no index is provided.
+
+print()
+# del keyword
+# Python provides del to delete an element from a list using its index.
+students = ["Rajan", "Rahul", "Amit", "Kiran", "Rohit"]
+# Your tasks:
+# 1. Delete "Rahul" using del.
+# 2. Print the updated list.
+# 3. Print the length of the list.
+del students[1]
+print(f"Updated List After Deletion : {students}")
+print(f"Length Of the Students List : {len(students)}")
