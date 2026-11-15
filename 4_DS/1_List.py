@@ -98,3 +98,10 @@ print(f"Updated List After Sorting in Descending Order : {numbers}")
 
 # numbers.sort() → Sorts numbers in ascending order (small to large).
 # numbers.sort(reverse=True) → Sorts numbers in descending order (large to small).
+
+print()
+# reverse() method
+# Python also has a reverse() method. It reverses the current order of elements without sorting them.
+num = [10, 20, 30, 40, 50]
+num.reverse()
+print(num)
