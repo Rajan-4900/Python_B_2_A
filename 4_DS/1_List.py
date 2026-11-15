@@ -83,3 +83,18 @@ students = ["Rajan", "Rahul", "Amit", "Kiran", "Rohit"]
 del students[1]
 print(f"Updated List After Deletion : {students}")
 print(f"Length Of the Students List : {len(students)}")
+
+print()
+# sort() method
+# We use sort() to arrange list elements in ascending or descending order.
+
+numbers = [45, 12, 89, 23, 5, 67]
+# Arrange numbers in ascending order
+# Print the updated list
+numbers.sort()
+print(f"Updated List after Sorting in Ascending Order : {numbers}")
+numbers.sort(reverse=True)
+print(f"Updated List After Sorting in Descending Order : {numbers}")
+
+# numbers.sort() → Sorts numbers in ascending order (small to large).
+# numbers.sort(reverse=True) → Sorts numbers in descending order (large to small).
