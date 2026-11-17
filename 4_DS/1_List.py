@@ -105,3 +105,8 @@ print()
 num = [10, 20, 30, 40, 50]
 num.reverse()
 print(num)
+
+# count()
+# The count() method tells us how many times an element appears in a list.
+fruits_list = ["Apple", "Banana", "Apple", "Mango", "Apple"]
+print(fruits_list.count("Apple"))
