@@ -110,3 +110,7 @@ print(num)
 # The count() method tells us how many times an element appears in a list.
 fruits_list = ["Apple", "Banana", "Apple", "Mango", "Apple"]
 print(fruits_list.count("Apple"))
+
+# index() method
+# The index() method tells us the position (index number) of an element in a list.
+print(fruits_list.index("Mango"))
