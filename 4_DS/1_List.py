@@ -114,3 +114,21 @@ print(fruits_list.count("Apple"))
 # index() method
 # The index() method tells us the position (index number) of an element in a list.
 print(fruits_list.index("Mango"))
+
+print()
+# copy() method
+# The copy() method creates a copy of an existing list.
+original = [10, 20, 30, 40]
+original_a = original.copy()
+original_a.append(50)
+print(f"Original List : {original}")
+print(f"Copied with adding new value : {original_a}")
+
+print()
+# clear() method
+# The clear() method removes all elements from a list.
+# fruit = ["Apple", "Banana", "Mango"]
+print(f"Before Clearning the List : {fruit}")
+fruit.clear()
+print(f"After Using the Clear Methos In The list : {fruit}")
+print(len(fruit))

@@ -40,3 +40,14 @@ std_names = ["Rajan", "Rahul", "Amit", "Kiran", "Rohit"]
 std_names.pop(2)
 print(f"Updated List : {std_names}")
 print(f"The Length of Updated list : {len(std_names)}")
+
+print()
+numbers = [5, 10, 15, 20, 10]
+numbers.append(25)
+numbers.remove(10)
+numbers.sort(reverse=True)
+print(numbers)
+print(len(numbers))
+# What will be the final output?
+# output1 : 25, 20, 15, 10, 5
+# output2 : 5
