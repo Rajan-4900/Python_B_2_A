@@ -18,6 +18,9 @@ print()
 # len() and count() in Tuples
 # These methods work just like they do with lists.
 print(len(fruits))      # length of the fruits tuple
-print(fruits.count("Mango"))        # it will count the number of same element 
+print(fruits.count("Mango"))        # it will counts how many times the same element appears
 
 print()
+# index() method in Tuples
+# The index() method returns the position of an element.
+print(fruits.index("Orange"))
