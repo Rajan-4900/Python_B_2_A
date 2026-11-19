@@ -24,3 +24,9 @@ print()
 # index() method in Tuples
 # The index() method returns the position of an element.
 print(fruits.index("Orange"))
+
+# Tuple with one element
+a = (10, 20, 30)  # Tuple
+b = (10)          # Integer, NOT a tuple
+c = (10,)         # Tuple
+# To create a tuple with only one element, we must add a comma ,.
