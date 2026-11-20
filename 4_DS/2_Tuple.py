@@ -38,3 +38,11 @@ print()
 # Putting multiple values into one tuple.
 student = ("Rajan", 22, "CSE")
 print(student)
+
+# 2. Tuple Unpacking
+# Assigning tuple elements to separate variables.
+student = ("Rajan", 22, "CSE")
+name, age, course = student
+print(name)
+print(age)
+print(course)
