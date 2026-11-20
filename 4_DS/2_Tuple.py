@@ -30,3 +30,11 @@ a = (10, 20, 30)  # Tuple
 b = (10)          # Integer, NOT a tuple
 c = (10,)         # Tuple
 # To create a tuple with only one element, we must add a comma ,.
+
+print()
+# Tuple Packing and Unpacking
+
+# 1. Tuple Packing
+# Putting multiple values into one tuple.
+student = ("Rajan", 22, "CSE")
+print(student)
