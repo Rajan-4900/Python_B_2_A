@@ -46,3 +46,11 @@ name, age, course = student
 print(name)
 print(age)
 print(course)
+
+print()
+# What happens if variables don't match?
+students = ("Rahul", 21, "Python")
+names, ages = students
+print(names)
+# Python will raise a ValueError because the number of variables and values doesn't match.
+
