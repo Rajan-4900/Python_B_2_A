@@ -23,3 +23,28 @@ print()
 numbers.remove(10)
 print(numbers)
 print(len(numbers))
+
+print()
+# discard() method
+# discard() also removes an element from a set.
+# remove() --->	Raises KeyError (Gives an error if the element doesn't exist.)
+# discard() ---> No error (Does not give an error if the element doesn't exist.)
+numbers.discard(85)
+print(numbers)
+print(len(numbers))
+
+print()
+# pop() in python
+# In Python Sets, pop() removes an arbitrary element.
+number = {10, 20, 30, 40}
+removed = number.pop()
+print("Removed:", removed)
+print("Remaining:", number)
+
+
+# Method	    What it does
+# add()	        Adds an element
+# remove()	    Removes a specific element
+# discard()	    Removes an element without error if absent
+# pop()	        Removes an arbitrary element
+# clear()	    Removes all elements
