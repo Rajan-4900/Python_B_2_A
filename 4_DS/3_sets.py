@@ -16,3 +16,10 @@ print()
 fruits.add("Orange")
 print(fruits)
 print(len(fruits))
+
+print()
+# remove() method in Sets
+# We use remove() to delete an element from a set.
+numbers.remove(10)
+print(numbers)
+print(len(numbers))
