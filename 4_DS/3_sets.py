@@ -48,3 +48,12 @@ print("Remaining:", number)
 # discard()	    Removes an element without error if absent
 # pop()	        Removes an arbitrary element
 # clear()	    Removes all elements
+
+print()
+
+# Set operations — union()
+# Union combines two sets and returns all unique elements.
+a = {10, 20, 30}
+b = {30, 40, 50}
+result = a.union(b)
+print(result)
