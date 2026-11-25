@@ -53,8 +53,8 @@ print()
 
 # Set operations — union()
 # Union combines two sets and returns all unique elements.
-a = {10, 20, 30}
-b = {30, 40, 50}
+a = {10, 20, 30, 40}
+b = {30, 40, 50, 60}
 result = a.union(b)
 print(result)
 
@@ -66,4 +66,10 @@ print(a.intersection(b))            # returns only the elements that are present
 print()
 # difference() method
 # difference() returns the elements that are in the first set but not in the second set.
-print(a.difference(b))              
+print(a.difference(b))   
+
+print()
+# symmetric_difference() in Sets
+# It returns elements that are present in either set, but not in both sets.
+result = a.symmetric_difference(b)
+print(result)
