@@ -57,3 +57,8 @@ a = {10, 20, 30}
 b = {30, 40, 50}
 result = a.union(b)
 print(result)
+
+print()
+# intersection() method
+# intersection() returns only the common elements between two sets.
+print(a.intersection(b))            # returns only the elements that are present in both sets.
