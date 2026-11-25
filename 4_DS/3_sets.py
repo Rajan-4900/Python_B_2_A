@@ -62,3 +62,8 @@ print()
 # intersection() method
 # intersection() returns only the common elements between two sets.
 print(a.intersection(b))            # returns only the elements that are present in both sets.
+
+print()
+# difference() method
+# difference() returns the elements that are in the first set but not in the second set.
+print(a.difference(b))              
