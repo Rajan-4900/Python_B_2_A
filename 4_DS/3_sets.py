@@ -73,3 +73,13 @@ print()
 # It returns elements that are present in either set, but not in both sets.
 result = a.symmetric_difference(b)
 print(result)
+
+print()
+# issubset() method
+# issubset() checks whether all elements of one set are present in another set.
+num1 = {1, 2}
+num2 = {1, 2, 6, 7, 9}
+print(num1.issubset(num2))
+# a.issubset(b) → Check every element of a inside b.
+# If even one element from a is missing in b, Python returns False.
+
