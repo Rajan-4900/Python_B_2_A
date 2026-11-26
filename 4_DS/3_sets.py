@@ -83,3 +83,8 @@ print(num1.issubset(num2))
 # a.issubset(b) → Check every element of a inside b.
 # If even one element from a is missing in b, Python returns False.
 
+print()
+# issuperset() method
+# You just learned issubset(). Now issuperset() is the opposite concept.
+# Simple meaning: issuperset() checks whether one set contains all the elements of another set.
+print(num1.issuperset(num2))
