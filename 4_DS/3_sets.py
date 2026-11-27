@@ -88,3 +88,10 @@ print()
 # You just learned issubset(). Now issuperset() is the opposite concept.
 # Simple meaning: issuperset() checks whether one set contains all the elements of another set.
 print(num1.issuperset(num2))
+
+print()
+# isdisjoint()
+# It checks whether two sets have no common elements.
+num3 = {12, 24, 35}
+num4 = {46, 57, 68}
+print(num3.isdisjoint(num4))        # If even one element is common, it returns False.
