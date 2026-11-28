@@ -26,3 +26,12 @@ print(student["College"])
 # B. Updating an existing item "College" --> "City"
 student["Course"] = "Computer Science Engineering"
 print(student)
+
+# C. Updating Key in diction by removing exisitng Key
+student["City"] = student.pop("College")            # it will upate the key College --> City the value will remain same
+print(student)
+print(student["City"])
+print()
+student["City"] = "Bangalore"                       # Value is updated for the City
+print(student)
+print(student["City"])
