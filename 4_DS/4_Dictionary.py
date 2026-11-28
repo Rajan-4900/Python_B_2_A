@@ -35,3 +35,13 @@ print()
 student["City"] = "Bangalore"                       # Value is updated for the City
 print(student)
 print(student["City"])
+
+print()
+# 1. len() — Count items
+# len() counts how many key-value pairs are present in a dictionary.
+print(len(student))
+
+print()
+# keys() — Get all keys
+# keys() returns all the keys present in the dictionary.
+print(student.keys())
